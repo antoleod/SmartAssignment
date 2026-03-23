@@ -1,0 +1,26 @@
+{
+  "name": "smart-assignment",
+  "version": "1.0.0",
+  "description": "Intelligent ticket assignment assistant for ServiceNow",
+  "main": "smart-assignment.js",
+  "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdioses/SmartAssignment.git"
+  },
+  "keywords": [
+    "servicenow",
+    "assignment",
+    "automation",
+    "bookmarklet",
+    "ticket-management"
+  ],
+  "author": "Juan Dioses (Gean) <jdioses@outlook.be>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdioses/SmartAssignment/issues"
+  },
+  "homepage": "https://github.com/jdioses/SmartAssignment#readme"
+}
