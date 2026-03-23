@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jdioses/SmartAssignment.git"
+    "url": "git+https://github.com/antoleod/SmartAssignment.git"
   },
   "keywords": [
     "servicenow",
@@ -20,7 +20,7 @@
   "author": "Juan Dioses (Gean) <jdioses@outlook.be>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jdioses/SmartAssignment/issues"
+    "url": "https://github.com/antoleod/SmartAssignment/issues"
   },
-  "homepage": "https://github.com/jdioses/SmartAssignment#readme"
+  "homepage": "https://github.com/antoleod/SmartAssignment#readme"
 }

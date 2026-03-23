@@ -29,16 +29,16 @@ Intelligent ticket assignment assistant for ServiceNow. Suggests assignees based
 
 ### 2. Update the loader
 
-Edit `smart-assignment.js` and replace:
+Edit `smart-assignment.js` and ensure it points to:
 
 ```javascript
-const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/YOUR_USERNAME/SmartAssignment/main/";
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/antoleod/SmartAssignment/main/";
 ```
 
-With your actual GitHub username:
+For this repository:
 
 ```javascript
-const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/jdioses/SmartAssignment/main/";
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/antoleod/SmartAssignment/main/";
 ```
 
 ### 3. Create the bookmarklet
@@ -46,10 +46,10 @@ const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/jdioses/SmartAssignme
 Copy this code and create a browser bookmark:
 
 ```javascript
-javascript:(function(){const script=document.createElement('script');script.src='https://raw.githubusercontent.com/YOUR_USERNAME/SmartAssignment/main/smart-assignment.js?t='+Date.now();document.body.appendChild(script);})();
+javascript:(async()=>{const u='https://raw.githubusercontent.com/antoleod/SmartAssignment/main/smart-assignment.js?t='+Date.now();const s=await (await fetch(u,{cache:'no-store'})).text();(0,eval)(s)})()
 ```
 
-**Replace `YOUR_USERNAME` with your GitHub username!**
+**Repository username:** `antoleod`
 
 ### 4. Use it
 

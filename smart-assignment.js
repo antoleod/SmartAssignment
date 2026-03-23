@@ -7,7 +7,7 @@
  * Bookmarklet loader - downloads and executes modules from GitHub Raw
  */
 (async function () {
-  const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/YOUR_USERNAME/SmartAssignment/main/";
+  const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/antoleod/SmartAssignment/main/";
   const CACHE_BUSTER = `?t=${Date.now()}`;
 
   const modules = [
